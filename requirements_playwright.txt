@@ -1,0 +1,6 @@
+playwright
+python-dotenv
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+# Add other non-OS specific dependencies if any were used by gsheet_utils or gdrive_utils 
