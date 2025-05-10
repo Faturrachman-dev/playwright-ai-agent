@@ -36,7 +36,7 @@ The application is structured into several key Python modules:
     *   `GOOGLE_SHEET_ID`: The ID of the Google Sheet containing the URLs.
     *   `URL_RANGE`: The specific sheet and cell range for URLs and status (e.g., `Sheet1!B2:C`).
     *   `GDRIVE_FOLDER_ID`: The ID of the Google Drive folder where screenshots will be uploaded.
-    *   `PATH_TO_GOOGLE_CREDENTIALS`: Path to the Google Cloud service account JSON key file.
+    *   `GOOGLE_APPLICATION_CREDENTIALS`: Path to the Google Cloud service account JSON key file.
     *   `LOG_LEVEL`: Configures the logging verbosity (e.g., INFO, DEBUG).
     *   `SCREENSHOT_DIR`: Local directory to temporarily store screenshots before upload.
     *   `INTER_URL_WAIT_SECONDS`: Wait time between processing URLs.
